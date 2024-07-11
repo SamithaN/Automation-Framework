@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="API.utilities.ExtentReportManager"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/ACER/IdeaProjects/Automation-Framework/src/test/java/API/test/PhoneTests.java">
+        <classes>
+            <class name="API.test.PhoneTests">
+                <methods>
+                    <include name="testPost"/>
+                    <include name="testGet"/>
+                    <include name="testUpdate"/>
+                    <include name="testDelete"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
